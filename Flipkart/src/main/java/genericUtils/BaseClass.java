@@ -66,7 +66,7 @@ public class BaseClass {
 	{
 		Thread.sleep(3000);
 		driver.quit();;
-		System.out.println("In After Class");
+		System.out.println("Application closed");
 	}
 	@AfterSuite
 	public void closeServer()
