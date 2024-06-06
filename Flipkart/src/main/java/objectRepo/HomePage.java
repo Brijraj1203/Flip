@@ -32,7 +32,7 @@ public class HomePage {
 		driver.findElement(AppiumBy.className("android.widget.EditText")).sendKeys("Iphone 15");
 		driver.pressKey(new KeyEvent(AndroidKey.ENTER));
 		driver.findElement(AppiumBy.id("com.flipkart.android:id/not_now_button")).click();
-		//driver.findElement(AppiumBy.id("com.flipkart.android:id/not_now_button")).click();
+		driver.findElement(AppiumBy.id("com.flipkart.android:id/not_now_button")).click();
 		
 		driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"View All Variants\"));")).click();
 	}
