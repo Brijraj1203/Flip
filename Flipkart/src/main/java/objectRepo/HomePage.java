@@ -35,7 +35,7 @@ public class HomePage {
 		driver.findElement(AppiumBy.id("com.flipkart.android:id/not_now_button")).click();
 		
 		driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"View All Variants\"));")).click();
-		
+		System.out.println("Done");
 	}
 
 }
